@@ -377,6 +377,19 @@ const parImpar = (num) => {
 console.log(parImpar(18));
 console.log(parImpar(7));
 
+/* 
+ Mejorar la app clima de mari 
+
+img.src = weather.temperature > 19 ?  "calor.png" : "frio.png";
+
+mejor que 
+
+        if (weather.temperature > 19) {
+            img.src = "calor.png";  
+        } else {
+            img.src = "frio.png";   
+
+*/
 
 
 
